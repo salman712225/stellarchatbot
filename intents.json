@@ -1,0 +1,130 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "How are you",
+            "What's up",
+            "Good morning",
+            "Good evening",
+            "Howdy"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi there! What can I help you with?",
+            "Hey! How can I be of service?",
+            "Good day! What do you need help with?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": [
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Take care",
+            "Have a good day",
+            "Catch you later"
+        ],
+        "responses": [
+            "Goodbye! Have a great day!",
+            "See you later, take care!",
+            "Take care and stay safe!",
+            "Goodbye! Feel free to reach out anytime!"
+        ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "I appreciate it",
+            "I'm grateful",
+            "Much appreciated"
+        ],
+        "responses": [
+            "You're welcome! I'm happy to help.",
+            "No problem! Glad I could assist.",
+            "You're welcome! Let me know if you need anything else."
+        ]
+    },
+    {
+        "tag": "services",
+        "patterns": [
+            "What services do you offer?",
+            "Tell me about your services",
+            "What can I get from you?",
+            "What kind of services do you provide?"
+        ],
+        "responses": [
+            "We offer a variety of services such as web development, mobile app development, AI solutions, and more. What service are you interested in?",
+            "Our services include web development, digital marketing, mobile app development, and AI-powered solutions. Which one are you interested in?",
+            "We offer professional services in software development, digital transformation, cybersecurity, and IT consulting. What can I assist you with?"
+        ]
+    },
+    {
+        "tag": "service_selection",
+        "patterns": [
+            "I need help with web development",
+            "Can you help me with AI?",
+            "I need a mobile app",
+            "I’m looking for cybersecurity solutions",
+            "I want data analytics services"
+        ],
+        "responses": [
+            "For web development, we provide custom websites tailored to your needs. Could you tell me more about your website requirements?",
+            "We specialize in AI solutions. What kind of AI-based features are you looking for?",
+            "We can help you build a mobile app. Is it for Android, iOS, or both platforms?",
+            "Cybersecurity is crucial. What specific security features do you need help with?",
+            "Our data analytics services help you derive actionable insights from your data. What kind of analytics are you looking for?"
+        ]
+    },
+    {
+        "tag": "pricing",
+        "patterns": [
+            "How much do your services cost?",
+            "What are your prices?",
+            "Can you give me the pricing details?",
+            "How much do you charge for web development?",
+            "What is the cost of a mobile app?"
+        ],
+        "responses": [
+            "Our prices depend on the complexity of the service. For example, web development starts at ₹30,000 for a basic website. Let me know the service you're interested in, and I can give you an estimate.",
+            "Our pricing is flexible. For web development, it starts from ₹30,000, and for mobile apps, it starts from ₹50,000. The price depends on the scope of the project.",
+            "The pricing varies based on your requirements. Web development can start from ₹30,000. Please share your project details so I can give a more precise quote.",
+            "For AI services, the cost starts from ₹40,000 depending on the complexity of the solution. Would you like to discuss the details of your project?"
+        ]
+    },
+    {
+        "tag": "feedback",
+        "patterns": [
+            "I want to give feedback",
+            "Can I leave a review?",
+            "How do I give feedback?",
+            "I have some suggestions"
+        ],
+        "responses": [
+            "We’d love to hear your feedback! Please share your thoughts, and we'll take them into consideration.",
+            "We really appreciate your suggestions! Feel free to let us know how we can improve.",
+            "Your feedback is important to us! Let us know what we can do better or what you liked about our service."
+        ]
+    },
+    {
+        "tag": "fallback",
+        "patterns": [
+            "I don't understand",
+            "Can you explain that again?",
+            "I didn't get that",
+            "What do you mean?",
+            "Could you clarify?"
+        ],
+        "responses": [
+            "I’m sorry, I didn’t quite get that. Could you rephrase your question?",
+            "I didn’t understand that. Could you please clarify?",
+            "Apologies, I’m not sure I follow. Could you ask that again in another way?"
+        ]
+    }
+]
